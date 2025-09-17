@@ -1,0 +1,9 @@
+Servidor: 
+
+java -jar ServidorTienda.jar <ip> <puerto> <archivo usuarios> <archivo productos>
+ejemplo:
+	java -jar ServidorTienda.jar localhost 10666 usuarios.txt productos.txt
+
+
+Cliente
+java -jar Cliente.jar <ip> <puerto>
